@@ -2,7 +2,7 @@
 let a = 1;
 let b = 5;
 
-let name = "boylubog";
+let name = "pie";
 let char = 'a';
 
 // Arithmetic operations
@@ -24,38 +24,38 @@ if (b !== 0) {
 }
 
 // Conditional statements
-let age = 17;
+let age = 10;
 let ageStatus = age >= 18 ? "Adult" : "Minor";
 console.log(ageStatus);
 
 // Switch statement
-let buangna = 'B';
+let nana = 'B';
 
-switch (buangna) {
+switch (nana) {
     case 'A':
-        console.log('Action A');
+        console.log('A');
         break;
     case 'B':
-        console.log('Action B');
+        console.log('B');
         break;
     case 'C':
-        console.log('Action C');
+        console.log('C');
         break;
     case 'D':
-        console.log('Action D');
+        console.log('D');
         break;
     default:
-        console.log('Default Action');
+        console.log('Default');
 }
 
 // For loop example
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 15; i++) {
     console.log('For Loop:', i);
 }
 
 // While loop example
 let j = 0;
-while (j < 10) {
+while (j < 15) {
     console.log('While Loop:', j);
     j++;
 }
@@ -65,5 +65,5 @@ function checkOddEven(num) {
     return num % 2 === 0 ? `${num} is even` : `${num} is odd`;
 }
 
-console.log(checkOddEven(6));
-console.log(checkOddEven(7));
+console.log(checkOddEven(2));
+console.log(checkOddEven(17));
